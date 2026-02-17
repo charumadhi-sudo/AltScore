@@ -130,8 +130,3 @@ Credit Score Output (0–900)
 This project is open source. Please refer to the repository for license details.
 
 ---
-
-
----
-
-*Built to expand financial access through smarter, fairer credit evaluation.*
