@@ -1,0 +1,9 @@
+PRELIMINARY INSIGHTS - DATA EXPLORATION
+================================================================================
+
+1. DEFAULT RATE: 8.07% - Indicates class imbalance requiring SMOTE/balancing
+2. MISSING DATA: 41 columns have >50% missing values - need robust imputation
+3. ALTERNATIVE DATA: 99.4% have bureau history, 110.2% have previous applications
+4. TARGET SEGMENT: 2,470 applications (0.8%) have NO alternative data
+5. DATA RICHNESS: 58,441,149 total records across all tables for feature engineering
+6. UTILITY PROXY: 10,001,358 POS/Cash balance records can proxy utility payment behavior

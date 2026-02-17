@@ -1,0 +1,60 @@
+COMPREHENSIVE EDA INSIGHTS REPORT
+Generated: 2026-02-15 23:50:35
+
+================================================================================
+TARGET VARIABLE INSIGHTS
+================================================================================
+1. Default Rate: 8.07%
+2. Class Imbalance: 1:11 (requires SMOTE/balancing)
+
+================================================================================
+DEMOGRAPHIC INSIGHTS
+================================================================================
+3. Average Age: 43.9 years
+4. Age Group with Highest Default: <25 (12.30%)
+5. Gender Distribution: 65.8% Female
+6. Education Impact: Higher education shows -83.3% lower default rate
+
+================================================================================
+FINANCIAL INSIGHTS
+================================================================================
+7. Median Income: 147,150
+8. Median Loan Amount: 513,531
+9. Avg Credit-to-Income Ratio: 3.27
+10. Lowest Income Bracket Default Rate: 8.62%
+
+================================================================================
+ALTERNATIVE DATA INSIGHTS
+================================================================================
+11. Applications with NO alternative data: 2,470 (0.8%)
+12. Default rate with NO alternative data: 7.29%
+13. Default rate with BOTH bureau & previous data: 7.84%
+14. Alternative data reduces default risk by: -7.6%
+
+================================================================================
+TOP PREDICTIVE FEATURES
+================================================================================
+15. EXT_SOURCE_3: 0.1789 correlation
+16. EXT_SOURCE_2: 0.1605 correlation
+17. EXT_SOURCE_1: 0.1553 correlation
+18. AGE_YEARS: 0.0782 correlation
+19. DAYS_BIRTH: 0.0782 correlation
+
+================================================================================
+PAYMENT BEHAVIOR INSIGHTS (UTILITY PROXY)
+================================================================================
+20. POS/Cash records available: 10,001,358 (utility payment proxy)
+21. Installment payment records: 13,605,401
+22. On-time payment rate: 23.1%
+
+================================================================================
+ACTIONABLE RECOMMENDATIONS FOR MODEL
+================================================================================
+23. Use SMOTE or class weights to handle 1:11 class imbalance
+24. Engineer features from bureau credit history (strong signal)
+25. Create payment regularity score from POS/Cash data
+26. Age groups, income brackets, and education are strong predictors
+27. External source scores (EXT_SOURCE_2/3) are top predictors - investigate
+28. Missing value imputation critical (67 features with missing data)
+29. Regional features show variation - include in model
+30. Payment timing/amount from installments can proxy utility behavior
