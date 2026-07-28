@@ -1,4 +1,4 @@
-# AltScore Credit Scoring Dashboard & ML Engine
+# 🏦AltScore Credit Scoring Dashboard & ML Engine
 
 A full-stack, real-time credit scoring dashboard and machine learning decision engine built with FastAPI, LightGBM/XGBoost, and HTML5/Vanilla JS — transforming static credit scoring models into transparent, explainable "glass-box" AI systems.
 
